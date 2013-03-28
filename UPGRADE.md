@@ -1,7 +1,7 @@
 # 0.8.0
 
- * `DoctrineORMModule\Module` does not implement `Zend\ModuleManager\Feature\AutoloaderProviderInterface` anymore.
-   Please switch to composer autoloading.
+ * [`DoctrineORMModule\Form\Annotation\AnnotationBuilder`](https://github.com/doctrine/DoctrineORMModule/blob/master/src/DoctrineORMModule/Form/Annotation/AnnotationBuilder.php)
+   does now also handle associations [#193](https://github.com/doctrine/DoctrineORMModule/pull/193)
 
 # 0.4.0
 Version `0.4.0` has been rewritten from scratch using the new ServiceManager component of ZF2. This allows for
